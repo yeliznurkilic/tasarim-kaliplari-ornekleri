@@ -1,6 +1,6 @@
 # ☕ Java Design Patterns Projesi
 
-Bu proje, Java dilinde yaygın kullanılan yazılım tasarım kalıplarının (Design Patterns) örnek implementasyonlarını içermektedir. Proje, yazılım mimarisi dersleri ve yazılım geliştirme pratiği amacıyla geliştirilmiştir.
+Bu proje, Java dilinde yaygın kullanılan yazılım tasarım kalıplarının (Design Patterns) örnek implementasyonlarını içermektedir. Proje, yazılım mimarisi dersleri ve yazılım geliştirme pratiği amacıyla geliştirilmiştir. Her kalıp için en az iki en fazla dört örnek bulunmaktadır. Davranışsal tasarım kalıpları için henüz örnek yazılmamıştır. 
 
 ---
 
@@ -52,18 +52,6 @@ designPatterns/
 └── davranissalKaliplar (Behavioral Patterns)
 ```
 
----
-
-## 📌 Örnek: Adapter Pattern
-
-Adapter pattern, uyumsuz iki arayüzün birlikte çalışmasını sağlar.
-
-Örnek sınıflar:
-
-* Cihaz
-* AvrupaPriz
-* ABDPriz
-* PrizAdaptoru
 
 ---
 
