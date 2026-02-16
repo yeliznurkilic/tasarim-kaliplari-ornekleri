@@ -1,0 +1,28 @@
+Açıklamalar:
+
+CizimAPI: Sekil nesnelerinin kullandığı çizim API’sidir.
+ WindowsAPI ve MacAPI, bu arayüzü implement eder ve her platform için çizim yapar.
+
+Sekil: CizimAPI implementasyonunu alır ve platforma özgü çizim işlemleri yapılmasını sağlar.
+
+Cember ve Dikdortgen: Sekil sınıfını extend eder ve ciz() metodunu implement eder.
+Her bir şekil, platforma özgü çizim API’sini kullanarak şekli çizer.
+
+Main: Farklı platformlarda çizim işlemi yapılır. Facade sınıfı, platform bağımsız olarak şekilleri çizer.
+
+Bridge Design Pattern’ın Avantajları:
+
+Bağımsızlık: Soyutlama ve implementasyon birbirinden bağımsızdır.
+ İhtiyaç duyulduğunda soyutlama ya da implementasyon değiştirilebilir.
+
+Esneklik: Yeni implementasyonlar eklemek oldukça kolaydır.
+Örneğin, LinuxAPI gibi yeni bir platform eklemek için sadece yeni bir implementasyon sınıfı eklenebilir.
+
+Karmaşıklık Azaltma: Karmaşık sınıfların farklı platformlara uygun versiyonlarını tek bir soyutlama altında birleştirir.
+
+Sonuç:
+
+Bridge Design Pattern, soyutlama ve implementasyon arasındaki bağımlılığı ortadan kaldırarak
+her iki tarafın bağımsız bir şekilde geliştirilmesini sağlar. Bu sayede, farklı platformlarda
+veya sistemlerde çalışacak nesneler oluşturulabilir. Örneğin, çizim uygulamalarında, veri tabanı
+erişimlerinde veya farklı cihazlar için sürücülerde bu tasarım kalıbı çok kullanışlıdır.
